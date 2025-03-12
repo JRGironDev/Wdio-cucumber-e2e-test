@@ -4,9 +4,9 @@ Feature: Demo Feature
   @demo
   Scenario Outline: Demo Scenario
     Given Google page is opened
-    # When I search for <SearchItem>
-    # Then Click on the first search result
-    # Then URL should match with <ExpectedURL>
+    When I search for <SearchItem>
+    Then Click on the first search result
+    Then URL should match with <ExpectedURL>
 
     Examples:
       | TestID    | SearchItem | ExpectedURL           |
